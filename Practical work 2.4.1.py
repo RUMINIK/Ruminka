@@ -163,8 +163,6 @@ def main():
     print("\nОставшиеся студенты:")
     for student_id ,student in manager.get_all_students():
        print(f"ID: {student_id}, {student}")
-
-    # Не забудьте закрыть соединение при завершении работы
     manager.close()
 
 if __name__ == "__main__":
